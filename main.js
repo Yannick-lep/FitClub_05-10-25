@@ -29,7 +29,7 @@ workoutContent.forEach((item) => {
   const duplicateNode = item.cloneNode(true);
   duplicateNode.setAttribute("aria-hidden", true);
   workout.appendChild(duplicateNode);
-});
+})
 
 ScrollReveal().reveal(".workout__content .section__header", {
   ...scrollRevealOption,
